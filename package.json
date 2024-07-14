@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/alexskt123/crawler-pg#readme",
   "dependencies": {
+    "commander": "^12.1.0",
     "puppeteer": "^22.13.0",
     "puppeteer-core": "^22.13.0"
   }
