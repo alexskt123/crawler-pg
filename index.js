@@ -9,4 +9,4 @@ program.parse();
 const { hsbc, google } = program.opts();
 
 hsbc && captureValuationImage();
-google && captureSearchedImage();
+google && captureSearchedImage("AAPL") && captureSearchedImage("AMZN");
